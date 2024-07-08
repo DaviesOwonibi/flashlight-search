@@ -46,7 +46,7 @@ console.log("Movies found: ", results);
 
 ## API
 
-### `search(substring: string, array: string[]): number[]`
+### `stringSearch(substring: string, array: string[]): string[]`
 
 Searches for a substring within an array of strings and returns the indices of the matching elements.
 
@@ -57,7 +57,7 @@ Searches for a substring within an array of strings and returns the indices of t
 
 #### Returns
 
-- `number[]`: An array of indices where the substring was found.
+- `string[]`: An array of items where the substring was found.
 
 ## License
 
@@ -65,4 +65,4 @@ This project is licensed under the MIT License.
 
 ---
 
-For any issues or contributions, please feel free to open a pull request or file an issue on the [GitHub repository](https://github.com/DaviesOwonibi/flashlight).
+For any issues or contributions, please feel free to open a pull request or file an issue on the [GitHub repository](https://github.com/DaviesOwonibi/flashlight-search).
