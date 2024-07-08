@@ -21,7 +21,7 @@ npm install flashlight-search
 Here is a simple example demonstrating how to use Flashlight:
 
 ```typescript
-import { search } from "flashlight-search";
+import { stringSearch } from "flashlight-search";
 
 const movies = [
   "Into the future",
@@ -40,7 +40,7 @@ const movies = [
 ];
 
 const input = "in";
-const results = search(input, movies);
+const results = stringSearch(input, movies);
 console.log("Movies found: ", results);
 ```
 
