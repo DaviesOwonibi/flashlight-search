@@ -1,0 +1,25 @@
+{
+  "name": "flashlight-search",
+  "version": "0.0.1",
+  "description": "A search package designed to help 'illuminate' what a user is looking",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "url": "git+https://github.com/DaviesOwonibi/flashlight-search.git"
+  },
+  "keywords": [
+    "search",
+    "flashlight",
+    "typescript"
+  ],
+  "author": "damilolaowonibi",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.3"
+  }
+}
