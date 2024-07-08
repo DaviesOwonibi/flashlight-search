@@ -59,6 +59,19 @@ Searches for a substring within an array of strings and returns the indices of t
 
 - `string[]`: An array of items where the substring was found.
 
+### `numberSearch(target: number, array: number[]): number[]`
+
+Searches for a number within an array of numbers and returns the number.
+
+#### Parameters
+
+- `target` (number): The number to search for.
+- `array` (number[]): The array of numbers to search within.
+
+#### Returns
+
+- `number[]`: An array of items that match the target.
+
 ## License
 
 This project is licensed under the MIT License.
